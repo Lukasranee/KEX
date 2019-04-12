@@ -80,7 +80,7 @@ main (int argc, char **argv)
 			
 			tof_se = ba >> 25;
 			tof = tof_se & 0xF;
-			
+			Alfons = 0;
 			
 			if ((tof >> 4) == 1 && ((tof & 0x7) == 1)){
 				printf(" EVENT: pkt_cnt: %8d ew1(d): %10d prompt: %1d ba(h): %8x ba(d): %10d Tof: %4d\n",
